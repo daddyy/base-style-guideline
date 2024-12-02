@@ -1,0 +1,189 @@
+body {
+    font: 16px/1.5 sans-serif;
+}
+.smaller {
+    font-size: 0.8em;
+}
+.small {
+    font-size: 0.9em;
+}
+.default {
+    font-size: 1em;
+}
+.big {
+    font-size: 1.1em;
+}
+.bigger {
+    font-size: 1.2em;
+}
+
+body, .button:hover {
+    color: #000000;
+}
+
+.default, button, .button, .button.default, .input, .input.default {
+    color: #333333;
+}
+.success, .button.success, .input.success {
+    color: #337533;
+}
+.info, .button.info, .input.info {
+    color: #3232a0;
+}
+.warning, .button.warning, .input.warning {
+    color: #d46c17;
+}
+.error, .button.error, .input.error {
+    color: #ff0000;
+}
+
+a {
+    color: #3939ff;
+    text-decoration: underline;
+}
+a:hover {
+    color: #3030d8;
+    text-decoration: none;
+}
+a:active {
+    color: #ff0000;
+}
+a:focus {
+    outline: 1px dotted;
+}
+
+.alert {
+    margin: 1em 0;
+    padding: 0.5em;
+    border: 1px solid;
+    border-radius: 0.25em;
+}
+.alert, .alert.default {
+    background-color: #f0f0f0;
+    border-color: #cccccc;
+}
+.alert.success {
+    background-color: #dbffdb;
+    border-color: #337533;
+}
+.alert.info {
+    background-color: #e7e7ff;
+    border-color: #0000cc;
+}
+.alert.warning {
+    background-color: #fff2d9;
+    border-color: #ffcc00;
+}
+.alert.error {
+    background-color: #ffe1e1;
+    border-color: #cc0000;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table th, .table td {
+    padding: 0.5em;
+    border: 1px solid;
+}
+.table th {
+    background-color: #f3f3f3;
+    border-color: #cccccc;
+}
+.table td {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.table tr:hover td {
+    background-color: #eeefff;
+}
+.table tfoot td {
+    background-color: #f0f0f0;
+    border-color: #cccccc;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 0.65em 1em 0.5em;
+    border: 1px solid;
+    border-radius: 0.25em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1;
+    font-size: inherit;
+}
+button, .button, .button.default {
+    background-color: #f0f0f0;
+    border-color: #cccccc;
+}
+.button.success {
+    background-color: #dbffdb;
+    border-color: #337533;
+}
+.button.info {
+    background-color: #e7e7ff;
+    border-color: #0000cc;
+}
+.button.warning {
+    background-color: #fff2d9;
+    border-color: #ffcc00;
+}
+.button.error {
+    background-color: #ffe1e1;
+    border-color: #cc0000;
+}
+.button:hover {
+    background-color: #f1f1f1;
+}
+.button:active {
+    background-color: #d0d0d0;
+}
+.button:focus {
+    outline: 1px dotted;
+}
+
+.input {
+    font-size: inherit;
+    padding: 0.65em 1em 0.5em;
+    border: 1px solid inherit;
+    border-left: 4px solid;
+    border-radius: 0.25em;
+}
+.input, .input.default {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.input.success {
+    border-left-color: #337533;
+}
+.input.info {
+    border-left-color: #0000cc;
+}
+.input.warning {
+    border-left-color: #ffcc00;
+}
+.input.error {
+    border-left-color: #cc0000;
+}
+.input:focus {
+    outline: 1px dotted;
+}
+
+*[readonly], .readonly, *[readonly]:hover, .readonly:hover, *[readonly]:focus, .readonly:focus, *[readonly]:active, .readonly:active, *[readonly]:visited, .readonly:visited {
+    background-color: #f0f0f0;
+    color: #999999;
+    border-color: #cccccc;
+    border-width: 1px;
+    color: #999999;
+    cursor: not-allowed;
+}
+
+*[disabled], .disabled, *[disabled]:hover, .disabled:hover, *[disabled]:focus, .disabled:focus, *[disabled]:active, .disabled:active, *[disabled]:visited, .disabled:visited {
+    background-color: #f0f0f0;
+    color: #999999;
+    border-color: #cccccc;
+    border-width: 1px;
+    color: #999999;
+    cursor: not-allowed;
+}
